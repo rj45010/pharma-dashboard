@@ -1,0 +1,45 @@
+.notification-bar {
+  padding: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  gap: 10px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.icon-wrapper {
+  background-color: #eff2f8;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  padding: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.notification-dot {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 10px;
+  height: 10px;
+  border: 3px solid #fce4d1;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.profile-icon {
+  background-color: #eff2f8;
+  border: 2px solid #ffffff;
+  width: 30px; 
+  height: 30px;
+}
+
+.icons {
+  font-size: 0.8rem;
+}

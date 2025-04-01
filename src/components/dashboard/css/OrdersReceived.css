@@ -1,0 +1,46 @@
+
+.po-card {
+  background-color: #121935;
+  border: 0;
+  color: white;
+  border-radius: 50rem !important;
+}
+
+.po-badge {
+  width: 33px;
+  height: 33px;
+  padding: 0;
+  background-color: rgba(59, 130, 246, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.po-badge-text {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.po-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.po-stats {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.po-stats h3 {
+  margin: 0px 6px;
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+
+.po-stats small {
+  font-size: 0.6rem;
+  font-weight: lighter;
+}

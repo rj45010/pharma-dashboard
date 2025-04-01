@@ -1,0 +1,97 @@
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  padding: 20px;
+  position: relative;
+}
+.sidebar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 210px;
+  height: 1px;
+  background-color: #ddd;
+  transform: translateX(-50%);
+}
+
+.Ai {
+  background-color: #3f5fa9;
+  border: none;
+  height: 50px;
+  padding: 4px 0;
+}
+
+.Ai p {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.section-heading {
+  font-size: 0.6rem;
+  color: #bbbbbb;
+  margin-top: 10px;
+}
+
+.sidebar-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 4px;
+  margin: 2px;
+  border: none;
+  background-color: transparent;
+  font-size: 0.8rem;
+  color: #666;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar-btn:hover {
+  background-color: #ddd;
+  color: black;
+  border-color: #333;
+}
+
+.sidebar-btn.active {
+  background-color: #e8ecf2;
+  color: black;
+  border: 1px solid #d9dee4;
+}
+
+.profile-section h6 {
+  font-size: 0.8rem;
+}
+
+.cloud{
+  color: #2154c1;
+  font-size: 1rem;
+}
+
+.update-btn {
+  font-size: 0.7rem;
+  color: black;
+  border-color: #bbbbbb;
+  padding: 4px 10px;
+}
+
+.profile-banner {
+  font-size: 0.55rem;
+  color: #bbbbbb;
+  border-bottom: 1px solid #ddd;
+}
+
+.progress {
+  background-color: #e8ecf2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.download-icon {
+  font-size: 0.8rem;
+}
+
+.coming-soon{
+  font-size: 0.7rem;
+}

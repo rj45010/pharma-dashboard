@@ -1,0 +1,37 @@
+.pending {
+  border: 1px solid black !important;
+  border-radius: 50rem !important;
+  background-color: transparent !important;
+  color: black !important;
+}
+
+.distributor-tabs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.distributor-tab-item {
+  flex-grow: 1;
+}
+
+.distributor-tab-link {
+  text-align: center;
+  color: black;
+  border-radius: 50rem !important;
+  padding: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.distributor-tab-link:hover {
+  background-color: #e9ecef;
+}
+
+.active-tab {
+  background-color: green !important;
+  color: #fff !important; 
+}
+
+.distributor-logo img {
+  object-fit: cover;
+}

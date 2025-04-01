@@ -1,0 +1,21 @@
+.top-products-card {
+  border-radius: 33px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 15px;
+}
+
+.popularity-bar {
+  height: 8px;
+  background-color: #f0f0f0 !important;
+  border-radius: 6px;
+}
+
+.sales-badge {
+  border-radius: 33px !important;
+  font-weight: bold !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 0.85rem !important;
+  background-color: #f8f9fa !important;
+  color: black !important;
+}
+

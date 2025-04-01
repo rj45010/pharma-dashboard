@@ -1,0 +1,27 @@
+.header {
+  height: 60px;
+  box-shadow: none !important; 
+  border: none !important;
+  background-color: #eff2f8;
+}
+
+.search-bar {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  margin: 0px 20px;
+}
+
+.search-bar input {
+  height: 40px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,54 @@
+.hello h1{
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.business-link {
+  padding: 0px;
+}
+
+.business-link-card {
+  border: none;
+  background-color: #eff2f8;
+  border-radius: 50rem !important;
+}
+
+.business-link-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.business-link-text {
+  display: flex;
+  align-items: center;
+}
+
+.business-link-copy {
+  color: #87a9e1;
+  margin-left: 6px;
+  text-decoration: underline;
+}
+
+.business-link-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 42px;
+  height: 42px;
+  background-color: var(--bs-primary);
+  color: white;
+  border-radius: 50%;
+}
+
+.business-link-action-icon {
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.business-link-action-text {
+  font-size: 0.5rem;
+  line-height: 1;
+  margin-top: 0.2rem;
+}
